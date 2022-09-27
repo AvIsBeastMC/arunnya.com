@@ -72,9 +72,10 @@ export const Header: React.FC = () => {
             }
           >
             <ul className="poppins flex flex-col mt-0 lg:flex-row list-none lg:ml-auto">
-              {links.map((link) => {
+              {links.map((link, i) => {
                 return (
                   <NavLink
+                    key={i}
                     setNavbarOpen={setNavbarOpen}
                     href={link.href}
                     title={link.title}

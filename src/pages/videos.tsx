@@ -22,6 +22,11 @@ const Videos:NextPage = () => {
 
   const [videos, setVideos] = useState<VideoInterface[]>([
     {
+      title: "Stay 💫",
+      url: "https://firebasestorage.googleapis.com/v0/b/portfolio-b19b7.appspot.com/o/Untitled.mp4?alt=media&token=6caeb57b-f19e-4c73-83ef-bdc6488313d9",
+      main: true
+    },
+    {
       title: "Positions V2 🌟🌟",
       url: "https://firebasestorage.googleapis.com/v0/b/portfolio-b19b7.appspot.com/o/positionsofhomiez.mp4?alt=media&token=9fbfd65b-5ae6-4f51-858d-aee90e6aade5",
       thumbnailUrl: "/thumbnails/positions.jpg",
@@ -30,7 +35,6 @@ const Videos:NextPage = () => {
     {
       title: "Middle of the Night ✨",
       url: "/videos/middleofnight.mp4",
-      main: true,
       thumbnailUrl: "/thumbnails/motn.jpg"
     },
     {
@@ -44,11 +48,6 @@ const Videos:NextPage = () => {
     {
       title: "Sad4whatt 😭",
       url: "/videos/sad4whatt.mp4",
-    },
-    {
-      title: "Moment 🎥",
-      url: "/videos/moment.mp4",
-      thumbnailUrl: "/thumbnails/moment.jpg"
     }
   ]);
 
