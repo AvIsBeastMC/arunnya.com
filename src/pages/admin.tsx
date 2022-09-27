@@ -171,7 +171,7 @@ const Admin: NextPage = () => {
       <>
         <section
           data-aos="fade-down"
-          className="text-gray-400 bg-gray-900 body-font"
+          className="text-gray-400 body-font"
         >
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
             <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
@@ -253,7 +253,7 @@ const Admin: NextPage = () => {
             </>
           ) : (
             <form onSubmit={addPost}>
-              <section className="text-gray-400 bg-gray-900 body-font relative">
+              <section className="text-gray-400 body-font relative">
                 <div className="container mx-auto">
                   <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <div className="flex flex-wrap -m-2">

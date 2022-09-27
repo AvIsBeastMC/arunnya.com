@@ -253,7 +253,7 @@ export default function Home() {
                 key={i}
                 className="p-12 md:w-1/2 flex flex-col items-start"
               >
-                <span className="inline-block py-1 uppercase px-2 rounded bg-gray-900 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">
+                <span className="inline-block py-1 uppercase px-2 rounded text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">
                   {project.category}
                 </span>
                 <h2 className="inter sm:text-3xl text-2xl title-font font-medium text-white my-4">
