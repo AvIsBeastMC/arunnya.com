@@ -37,28 +37,40 @@ const Footer = () => {
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             target="_blank"
-            href="https://youtube.com/arunnyavarma"
+            title="Quora"
+            href="https://www.quora.com/profile/Arunnya-Varma"
             className="text-gray-400"
           >
-            <i className="text-md hover:text-blue-400 bi bi-youtube" />
+            <i className="text-md hover:text-blue-400 bi bi-quora" />
           </a>
           <a
             href="https://twitter.com/its_arunnya"
+            title="Twitter"
             className="ml-3 text-gray-400"
           >
             <i className="text-md hover:text-blue-400 bi bi-twitter" />
           </a>
           <a
+            href="https://www.linkedin.com/in/arunnya-varma/"
+            title="LinkedIn"
+            className="ml-3 text-gray-400"
+          >
+            <i className="text-md hover:text-blue-400 bi bi-linkedin" />
+          </a>
+          <a
             href="https://instagram.com/varmaarunnya"
+            title="Instagram"
             className="ml-3 text-gray-400"
           >
             <i className="text-md hover:text-blue-400 bi bi-instagram" />
           </a>
           <a
-            href="https://www.linkedin.com/in/arunnya-varma/"
+            target="_blank"
+            title="YouTube (discontinued)"
+            href="https://youtube.com/arunnyavarma"
             className="ml-3 text-gray-400"
           >
-            <i className="text-md hover:text-blue-400 bi bi-linkedin" />
+            <i className="text-md hover:text-blue-400 bi bi-youtube" />
           </a>
         </span>
       </div>
