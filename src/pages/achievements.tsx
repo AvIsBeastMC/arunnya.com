@@ -92,6 +92,57 @@ export default function Achievements() {
                   />
                 </div>
               </div>
+              <div className="flex flex-wrap w-1/2">
+                <div className="md:p-2 p-1 w-full">
+                    <img
+                      alt="gallery"
+                      className="w-full h-full object-cover object-center block"
+                      src="/images/hacktrack3.jpg"
+                    />
+                </div>
+                <div className="md:p-2 p-1 w-1/2">
+                    <img
+                      alt="gallery"
+                      className="w-full object-cover h-full object-center block"
+                      src="/images/certificate.jpg"
+                    />
+                </div>
+                <div className="md:p-2 p-1 w-1/2">
+                  <video
+                    controls
+                    className="w-full object-cover h-full object-center block"
+                    src="https://firebasestorage.googleapis.com/v0/b/portfolio-b19b7.appspot.com/o/ARAVALI%20SHISTECH%20JOURNEY.mp4?alt=media&token=7fc12d6c-c485-46b2-9704-d915857253b2"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-wrap w-1/2">
+                <div className="md:p-2 p-1 w-full">
+                    <img
+                      alt="gallery"
+                      className="w-full h-full object-cover object-center block"
+                      src="/images/hacktrack4.jpg"
+                    />
+                </div>
+                <div className="md:p-2 p-1 w-1/2">
+                <a
+                    href="https://www.shis.tech/hacktrack"
+                    className="hover:opacity-40"
+                  >
+                    <img
+                      alt="gallery"
+                      className="w-full object-cover h-full object-center block"
+                      src="/images/hacktrack.png"
+                    />
+                    </a>
+                </div>
+                <div className="md:p-2 p-1 w-1/2">
+                  <img
+                    alt="gallery"
+                    className="w-full object-cover h-full object-center block"
+                    src="/images/shistech.jpg"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>

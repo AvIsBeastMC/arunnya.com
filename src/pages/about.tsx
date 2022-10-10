@@ -336,7 +336,7 @@ const About: NextPage = () => {
           <div className="flex container mx-auto flex-wrap -m-4">
             <div className="xl:w-1/3 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <img src="nextjs.png" />
+                <img src="images/nextjs.png" />
                 <h2 className="baron mt-2 text-lg text-white font-medium title-font">
                   NEXTJS (+ React)
                 </h2>
