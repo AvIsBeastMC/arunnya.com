@@ -121,6 +121,7 @@ export default function Home() {
       </section>
       <section
         data-aos="fade-in"
+        id="projects"
         data-aos-delay="3000"
         style={{ backgroundColor: "#0a2327" }}
         className="text-gray-400 body-font bg-gray-900"
