@@ -3,8 +3,10 @@ import * as React from "react";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
+import Projects from "../typings/Projects";
 import ReactTypingEffect from "react-typing-effect";
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 export default function Home() {
   interface Project {
@@ -16,133 +18,21 @@ export default function Home() {
     features?: string[];
     i: string;
     link?: string;
+    readMore: boolean;
   }
 
-  const projects: Project[] = [
-    {
-      i: "bi bi-newspaper",
-      category: "News and Posts",
-      date: "4th June 2022",
-      title: "EasyPolitics",
-      builtWith: ["Nuxt.js", "Firebase Firestore", "TailwindCSS", "Moment"],
-      description:
-        "This site is just like another news website like The Times of India website or The Hindu, you can be an editor, publish posts and use HTML/Markdown tags to represent and highlight parts and portions of paragraphs.",
-      features: [
-        "Write Posts",
-        "Comment on Posts",
-        "Save Posts in your See Later",
-        "Views counted for each post",
-      ],
-      link: "https://www.easypolitics.ml",
-    },
-    {
-      i: "bi bi-play",
-      category: "Video Sharing",
-      date: "22 February 2022",
-      title: "Watchbang",
-      builtWith: [
-        "Nuxt.js",
-        "MongoDB",
-        "Firebase Storage",
-        "Moment",
-        "Express",
-        "TailwindCSS",
-      ],
-      description:
-        "This is a video-sharing website just like YouTube, though the design has really not been focused at, like at all, the goal was just to build the basic up-and-running site which serves it's basic purpose stably.",
-      features: [
-        "Find latest videos",
-        "Watch Videos",
-        "Save and Share Videos",
-        "Views counted for each video",
-        "Upload your own videos by creating a channel in the dashboard",
-      ],
-      link: "https://www.watchbang.tk/",
-    },
-    {
-      i: "bi bi-stopwatch",
-      category: "Grocery and Ecommerce",
-      date: "12 Jul 2022",
-      title: "Reminders and Notifications",
-      builtWith: [
-        "React",
-        "MongoDB",
-        "Moment",
-        "Express",
-        "and a lot of other minor dependencies...",
-      ],
-      description: "Quite self-explanatory name isn't it",
-      features: [
-        "Schedule alarms",
-        "Notifications",
-        "Alert Sounds",
-        "Delete Alarms",
-      ],
-    },
-    {
-      i: "bi bi-cart",
-      category: "Grocery and Ecommerce",
-      date: "12 Jul 2022",
-      title: "Arunnya's Delight (Mobile App)",
-      builtWith: [
-        "React Native",
-        "Expo",
-        "MongoDB",
-        "Moment",
-        "Express",
-        "and a lot of other minor dependencies...",
-      ],
-      description:
-        "This is a Expo-powered React Native app which is equivalent to apps like Grofers or CountryDelight, payment systems, cart, items, account settings and handles, order history, and at the end, becoming a seller and selling own good, are the features that are expected to be shipped with this app",
-      features: [
-        "Order according to schedule calendar",
-        "Cart System",
-        "Purchase System",
-        "Order History",
-        "Items",
-        "Have a detailed set of data which you can request for all the purchases ever made during the lifetime of your account.",
-      ],
-    },
-    {
-      i: "bi bi-chat-square-text",
-      link: "https://www.fireforums.ml/",
-      category: "Messaging and Forum",
-      date: "N.A.",
-      title: "Fireforums (very old)",
-      builtWith: [
-        "Firebase Storage",
-        "Firebase Authentication",
-        "Quasar",
-        "Moment",
-        "and a lot of other minor dependencies...",
-      ],
-      description:
-        "This website is similar to that of WhatsApp and Twitter combined, you could post, gather upvotes, and you can also add people to your Direct Messages by entering their exact registered email address and you can talk to them in realtime.",
-      features: [
-        "Talk by messaging people",
-        "View Threads",
-        "Post Threads",
-        "Views counted for each thread",
-        "Create your own thread(s) and gather upvotes and views",
-        "Have a profile set up as well",
-      ],
-    },
-    {
-      i: "bi bi-flag",
-      category: "Tournament",
-      date: "1 February 2022",
-      title: "GoIndia",
-      builtWith: [
-        "MongoDB",
-        "Nuxt.js",
-        "Discord.js",
-        "TailwindCSS",
-        "and a lot of other minor dependencies...",
-      ],
-      description:
-        "A website and a discord server with a discord bot was created for this Valorant tournament, registrations were possible through the website and the bot kept the discord server #teams channel up-to-date and tracked all the registered teams and also sent schedules and notifications about matches.",
-    },
-  ];
+  const router = useRouter();
+
+  const [projects, setProjects] = React.useState<Project[]>(Projects);
+
+  const readMore = (i: number) => {
+    const newProjects = projects.map((project, projectI) =>
+      projectI == i ? { ...project, readMore: true } : project
+    );
+
+    setProjects(newProjects);
+  };
+
   return (
     <>
       <Head>
@@ -163,9 +53,7 @@ export default function Home() {
           content="I am a Web and App Developer who focuses on building quality websites and native applications which aims to deliver content and services with great experience and presentation."
         />
       </Head>
-      <section
-        className="text-gray-400 mt-24 mb-32 body-font"
-      >
+      <section className="text-gray-400 my-24 body-font">
         <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
             <img
@@ -182,7 +70,8 @@ export default function Home() {
               data-aos-delay="1500"
               className="inter title-font sm:text-3xl text-2xl font-medium text-white"
             >
-              Welcome! <br /> I am <span className="text-gray-400">
+              Welcome! <br /> I am{" "}
+              <span className="text-gray-400">
                 <ReactTypingEffect
                   text={[
                     "Arunnya",
@@ -234,81 +123,98 @@ export default function Home() {
         data-aos="fade-in"
         data-aos-delay="3000"
         style={{ backgroundColor: "#0a2327" }}
-        className="text-gray-400 body-font overflow-hidden"
+        className="text-gray-400 body-font bg-gray-900"
       >
-        <h1
-          id="projects"
-          data-aos="fade-in"
-          data-aos-delay="3500"
-          className="py-12 text-center inter text-4xl uppercase text-white"
-        >
-          PROJECTS
-        </h1>
-        <div className="container px-5 pb-12 mx-auto">
-          <div className="flex flex-wrap -m-12">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="inter sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+                PROJECTS
+              </h1>
+              <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+            </div>
+            <p className="poppins lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">
+              These are my public projects out of all my projects that I've done
+              which are mostly private projects intended for just my use..
+            </p>
+          </div>
+          <div className="flex flex-wrap -m-4">
             {projects.map((project, i) => (
-              <div
-                data-aos="fade-in"
-                data-aos-delay={200 + i * 100}
-                key={i}
-                className="p-12 md:w-1/2 flex flex-col items-start"
-              >
-                <span className="inline-block py-1 uppercase px-2 rounded text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">
-                  {project.category}
-                </span>
-                <h2 className="inter sm:text-3xl text-2xl title-font font-medium text-white my-4">
-                  <i className={project.i + " mr-1"}></i> {project.title}
-                </h2>
-                <p className="poppins leading-relaxed mb-4">
-                  <h1 className="uppercase text-xl font-bold inter">
-                    DESCRIPTION
-                  </h1>
-                  <p className="mb-2">{project.description}</p>
-                  {project.builtWith.map((pre, i) => (
-                    <>
-                      {i == 0 ? (
-                        <h1 className="uppercase text-xl font-bold inter mb-1">
-                          BUILT WITH
+              <div key={i} className="xl:w-1/2 md:w-1/2 p-4">
+                <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                  <h3 className="tracking-widest poppins text-indigo-400 mb-1 text-xs font-medium title-font">
+                    {project.category.toUpperCase()}
+                  </h3>
+                  <h2 className="inter text-lg text-white font-medium title-font">
+                    {project.title}
+                  </h2>
+                  <p className="leading-relaxed text-base my-2">
+                    {project.description}
+                  </p>
+                  {project.readMore ? (
+                    <div data-aos="fade-in">
+                      <div>
+                        {project.features?.map((feature, featureI) => (
+                          <>
+                            {featureI == 0 ? (
+                              <h1 className="my-1 inter font-bold uppercase text-gray-300">
+                                <span className="border-b-2 border-gray-300 border-dotted">
+                                  features
+                                </span>
+                              </h1>
+                            ) : (
+                              <></>
+                            )}
+                            <li
+                              key={featureI}
+                              style={{ color: "#9CA3AF" }}
+                              className="poppins"
+                            >
+                              {feature}
+                            </li>
+                          </>
+                        ))}
+                      </div>
+                      <div className="my-2">
+                        <h1 className="my-1 inter font-bold uppercase text-gray-300">
+                          <span className="border-b-2 border-gray-300 border-dotted">
+                            built with
+                          </span>
                         </h1>
-                      ) : null}
-                      <li>{pre}</li>
-                    </>
-                  ))}
-                  {project.features?.map((pre, i) => (
-                    <>
-                      {i == 0 ? (
-                        <h1 className="uppercase text-xl font-bold inter mb-1">
-                          FEATURES
-                        </h1>
-                      ) : null}
-                      <li>{pre}</li>
-                    </>
-                  ))}
-                </p>
-                {project.link ? (
-                  <div className="flex items-center flex-wrap w-full">
-                    <a
-                      href={project.link}
-                      className="text-indigo-400 inline-flex items-center"
+                        {project.builtWith.map((builtWith, builtWithI) => (
+                          <li
+                            key={builtWithI}
+                            style={{ color: "#9CA3AF" }}
+                            className="poppins"
+                          >
+                            {builtWith}
+                          </li>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => readMore(i)}
+                      title="Read More"
+                      className="text-white"
                     >
-                      Check out
-                      <svg
-                        className="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                ) : (
-                  <></>
-                )}
+                      <i className="hover:text-indigo-300 text-md bi bi-arrow-down-circle" />
+                    </button>
+                  )}
+                  {project.link ? (
+                    <button
+                      onClick={() => router.push(project.link)}
+                      className={
+                        project.readMore ? "text-white" : "ml-2 text-white"
+                      }
+                      title="Go to Page"
+                    >
+                      <i className="hover:text-indigo-300 text-md bi bi-arrow-right-circle" />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+                </div>
               </div>
             ))}
           </div>
