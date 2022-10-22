@@ -23,10 +23,6 @@ export const Header: React.FC = () => {
       href: "/achievements",
     },
     {
-      title: "Montages",
-      href: "/videos",
-    },
-    {
       title: "Blogs",
       href: "/blogs",
     },
@@ -34,6 +30,10 @@ export const Header: React.FC = () => {
       title: "Contact",
       href: "/contact",
     },
+    {
+      title: "Montages",
+      href: "/videos",
+    }
   ];
 
   const [navbarOpen, setNavbarOpen] = React.useState(false);

@@ -1,3 +1,15 @@
+export interface Project {
+  category: string;
+  date: string;
+  title: string;
+  builtWith: string[];
+  description: string;
+  features?: string[];
+  i: string;
+  link?: string;
+  readMore: boolean;
+}
+
 export default [
     {
       i: "bi bi-play",
@@ -130,4 +142,4 @@ export default [
       description:
         "A website and a discord server with a discord bot was created for this Valorant tournament, registrations were possible through the website and the bot kept the discord server #teams channel up-to-date and tracked all the registered teams and also sent schedules and notifications about matches.",
     },
-  ]
+  ] as Project[]

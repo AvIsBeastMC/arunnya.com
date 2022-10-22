@@ -1,26 +1,15 @@
 import * as React from "react";
 
+import Projects, { Project } from "../typings/Projects";
+
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
-import Projects from "../typings/Projects";
 import ReactTypingEffect from "react-typing-effect";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
 export default function Home() {
-  interface Project {
-    category: string;
-    date: string;
-    title: string;
-    builtWith: string[];
-    description: string;
-    features?: string[];
-    i: string;
-    link?: string;
-    readMore: boolean;
-  }
-
   const router = useRouter();
 
   const [projects, setProjects] = React.useState<Project[]>(Projects);
@@ -79,9 +68,7 @@ export default function Home() {
                     "a Video Editor",
                     "a React Developer",
                     "a React Native Developer",
-                    "a MongoDB Developer",
-                    "a Bathroom Singer",
-                    "a Chill Dude",
+                    "a MongoDB Developer"
                   ]}
                   typingDelay={0}
                   eraseDelay={400}
