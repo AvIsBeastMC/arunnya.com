@@ -193,7 +193,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "330px" }}
                   />
                 </div>
               </div>
@@ -305,7 +304,7 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "180px" }}
+                    style={{ width: "90px" }}
                   />
                 </div>
               </div>
@@ -319,7 +318,7 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "110px" }}
+                    style={{ width: "90px" }}
                   />
                 </div>
               </div>
@@ -584,6 +583,46 @@ const About: NextPage = () => {
                 </div>
               </div>
             </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+              <img src="https://img.icons8.com/external-others-inmotus-design/48/000000/external-H-alphabet-others-inmotus-design-13.png"/>
+                <h2 className="baron mt-2 text-lg text-white font-medium title-font">
+                  Hostinger
+                </h2>
+                <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 h-2.5 rounded-full"
+                    style={{ width: "300px" }}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <img src="https://img.icons8.com/color/48/000000/heroku.png" />
+                <h2 className="baron mt-2 text-lg text-white font-medium title-font">
+                  Heroku
+                </h2>
+                <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 h-2.5 rounded-full"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <img src="https://img.icons8.com/ios-glyphs/48/000000/question-mark.png"/>
+                <h2 className="baron mt-2 text-lg text-white font-medium title-font">
+                  Freenom
+                </h2>
+                <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 h-2.5 rounded-full"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
@@ -681,28 +720,9 @@ const About: NextPage = () => {
           <div className="flex container mx-auto flex-wrap -m-4">
             <div className="xl:w-1/3 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i className="bi bi-mic" style={{ fontSize: "28px" }}></i>
-                <h2 className="poppins mt-2 text-lg text-white font-medium title-font">
-                  Bathroom Singing ✨
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i className="bi bi-journals" style={{ fontSize: "28px" }}></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Watching Documentaries about Geopolitics and Aviation ✨
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-search-heart"
-                  style={{ fontSize: "28px" }}
-                ></i>
-                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Self-Talking ✨
+                  Watching Documentaries and Learning about Geopolitics and Aviation ✨
                 </h2>
               </div>
             </div>
@@ -710,8 +730,7 @@ const About: NextPage = () => {
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i className="bi bi-heart" style={{ fontSize: "28px" }}></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Listening to Songs of LEGENDS like Arijit Singh, KK 🤎 Sonu
-                  Nigam and Shreya Ghoshal ✨✨
+                  Listening to Songs of LEGENDS like Arijit Singh, KK and Sonu Nigam ✨✨
                 </h2>
               </div>
             </div>
@@ -720,18 +739,6 @@ const About: NextPage = () => {
                 <i className="bi bi-lightbulb" style={{ fontSize: "28px" }}></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
                   Thinking of Ideas & Projects to Work On ✨
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <img src="images/sing.png" className="py-2" alt="" />
-                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Singing while home alone{" "}
-                  <i className="border-b-2 border-gray-600">
-                    for the high notes
-                  </i>{" "}
-                  ✨✨
                 </h2>
               </div>
             </div>
@@ -745,39 +752,6 @@ const About: NextPage = () => {
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-info-circle"
-                  style={{ fontSize: "28px" }}
-                ></i>
-                <h2 className="poppins mt-2 text-lg text-white font-medium title-font">
-                  Learning GraphQL
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-info-circle"
-                  style={{ fontSize: "28px" }}
-                ></i>
-                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Learning Next.js 12.2.0 ✨
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-info-circle"
-                  style={{ fontSize: "28px" }}
-                ></i>
-                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Learning Nuxt.js 3 ✨
-                </h2>
-              </div>
-            </div>
             <div className="xl:w-1/3 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i
