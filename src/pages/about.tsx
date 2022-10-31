@@ -730,7 +730,7 @@ const About: NextPage = () => {
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i className="bi bi-heart" style={{ fontSize: "28px" }}></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Listening to Songs of LEGENDS like Arijit Singh, KK and Sonu Nigam ✨✨
+                  Love listening to songs of Arijit Sir! 🤎✨
                 </h2>
               </div>
             </div>
@@ -759,22 +759,11 @@ const About: NextPage = () => {
                   style={{ fontSize: "28px" }}
                 ></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Thinking About My Opportunities in the Near Future
-                </h2>
-              </div>
-            </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-info-circle"
-                  style={{ fontSize: "28px" }}
-                ></i>
-                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
                   Learning about{" "}
                   <span className="border-b-2 border-gray-600">
                     Aviation and Engineering Sector
                   </span>{" "}
-                  as well as the Business Sector about{" "}
+                  and {" "}
                   <span className="border-b-2 border-gray-600">
                     Finance, Management and Communications
                   </span>
@@ -788,7 +777,18 @@ const About: NextPage = () => {
                   style={{ fontSize: "28px" }}
                 ></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Remembering the best and the good old days of my life!
+                  Thinking About My Opportunities in the Near Future
+                </h2>
+              </div>
+            </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <i
+                  className="bi bi-info-circle"
+                  style={{ fontSize: "28px" }}
+                ></i>
+                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
+                  Remembering the good old days of my life... where did they go...? :(
                 </h2>
               </div>
             </div>
