@@ -5,7 +5,7 @@ import Projects, { Project } from "../typings/Projects";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
-import ReactTypingEffect from "react-typing-effect";
+import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
@@ -21,6 +21,8 @@ export default function Home() {
 
     setProjects(newProjects);
   };
+
+  const ay = `<span className="blink_me">|</span>`;
 
   return (
     <>
@@ -59,21 +61,26 @@ export default function Home() {
               data-aos-delay="1500"
               className="inter title-font sm:text-3xl text-2xl font-medium text-white"
             >
-              Welcome! <br /> I am{" "}
+              Welcome! <br />{" "}
               <span className="text-gray-400">
-                <ReactTypingEffect
-                  text={[
-                    "Arunnya",
-                    "a Node.js Developer",
-                    "a Video Editor",
-                    "a React Developer",
-                    "a React Native Developer",
-                    "a MongoDB Developer"
-                  ]}
-                  typingDelay={0}
-                  eraseDelay={400}
-                  eraseSpeed={100}
-                  speed={200}
+              <Typewriter
+                  options={{
+                    strings: [
+                      "This is Arunnya",
+                      "I am a Node.js Developer",
+                      "I am a React Developer",
+                      "I am a React Native Developer",
+                      "I am a MongoDB Developer",
+                      "I am a Firebase Developer",
+                      "I am a Video Editor",
+                      "Take care of yourself! ❤",
+                      "Thank you for visiting! ✨",
+                    ],
+                    cursor: ay,
+                    cursorClassName: "text-gray-600 blink_me",
+                    autoStart: true,
+                    loop: true,
+                  }}
                 />
               </span>
             </h1>
