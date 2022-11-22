@@ -794,6 +794,61 @@ const About: NextPage = () => {
             </div>
           </div>
         </div>
+        <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
+        <div id="favourites" data-aos="fade-down" className="mx-auto mb-12">
+          <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
+            <span className="baron mr-2 md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Favourites 
+            </span>
+            <span className="poppins">🌟✨</span>
+          </h1>
+          <div className="flex container mx-auto flex-wrap -m-4">
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <i
+                  className="bi bi-film"
+                  style={{ fontSize: "28px" }}
+                ></i> <br />
+                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
+                  <span className="text-sky-200">
+                    All-time Favourite Movie
+                  </span> <br />
+                  Anand (1971)
+                </h2>
+                <a href="https://youtu.be/vdoMF0qwtAQ" className="hover:text-blue-400" target="_blank"><i className="bi bi-youtube"></i></a>
+              </div>
+            </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <i
+                  className="bi bi-disc"
+                  style={{ fontSize: "28px" }}
+                ></i> <br />
+                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
+                  <span className="text-sky-200">
+                    All-time Favourite Song
+                  </span> <br />
+                  Clarity - Foxes & Zedd
+                </h2>
+                <a href="https://open.spotify.com/track/60wwxj6Dd9NJlirf84wr2c?autoplay=true" className="hover:text-blue-400" target="_blank"><i className="bi bi-spotify"></i></a>
+              </div>
+            </div>
+            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <i
+                  className="bi bi-stars"
+                  style={{ fontSize: "28px" }}
+                ></i> <br />
+                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
+                  <span className="text-sky-200">
+                    All-time Favourite Hobby
+                  </span> <br />
+                  <span className="line-through">Programming</span> Sitting alone when nobody's home!
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <Footer />
     </>
