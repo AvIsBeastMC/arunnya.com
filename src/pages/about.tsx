@@ -234,7 +234,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "320px" }}
                   />
                 </div>
               </div>
@@ -262,7 +261,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "310px" }}
                   />
                 </div>
               </div>
@@ -342,7 +340,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "310px" }}
                   />
                 </div>
               </div>
@@ -381,7 +378,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "325px" }}
                   />
                 </div>
               </div>
@@ -395,7 +391,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "325px" }}
                   />
                 </div>
               </div>
@@ -434,7 +429,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "330px" }}
                   />
                 </div>
               </div>
@@ -476,7 +470,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "310px" }}
                   />
                 </div>
               </div>
@@ -514,7 +507,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "320px" }}
                   />
                 </div>
               </div>
@@ -578,7 +570,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "300px" }}
                   />
                 </div>
               </div>
@@ -592,7 +583,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "300px" }}
                   />
                 </div>
               </div>
@@ -642,7 +632,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "310px" }}
                   />
                 </div>
               </div>
@@ -689,7 +678,6 @@ const About: NextPage = () => {
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
                     className="bg-blue-600 h-2.5 rounded-full"
-                    style={{ width: "300px" }}
                   />
                 </div>
               </div>
