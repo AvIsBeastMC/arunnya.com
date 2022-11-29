@@ -791,7 +791,7 @@ const About: NextPage = () => {
             <span className="poppins">🌟✨</span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+            <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i
                   className="bi bi-film"
@@ -806,7 +806,7 @@ const About: NextPage = () => {
                 <a href="https://youtu.be/vdoMF0qwtAQ" className="hover:text-blue-400" target="_blank"><i className="bi bi-youtube"></i></a>
               </div>
             </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+            <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i
                   className="bi bi-disc"
@@ -814,14 +814,29 @@ const About: NextPage = () => {
                 ></i> <br />
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
                   <span className="text-sky-200">
-                    All-time Favourite Song (trust me I actually have a lot of them-)
+                    All-time Favourite Song
                   </span> <br />
                   Tu Mila To Haina - Arijit Singh
                 </h2>
                 <a href="https://open.spotify.com/track/4ZoIQLHOAD6jwsQ0daI5M2?si=1b296ca5a83f46e0" className="hover:text-blue-400" target="_blank"><i className="bi bi-spotify"></i></a>
               </div>
             </div>
-            <div className="xl:w-1/3 w-full md:w-1/2 p-4">
+            <div className="xl:w-1/4 w-full md:w-1/2 p-4">
+              <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                <i
+                  className="bi bi-alipay"
+                  style={{ fontSize: "28px" }}
+                ></i> <br />
+                <h2 className="poppins mt-2 text-md text-white font-medium title-font">
+                  <span className="text-sky-200">
+                    All-time Favourite Anime
+                  </span> <br />
+                  Kimi ni Todoke Season 2
+                </h2>
+                <a href="https://animixplay.to/v1/kimi-ni-todoke-season-2" className="hover:text-blue-400" target="_blank"><i className="bi bi-play-circle"></i></a>
+              </div>
+            </div>
+            <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i
                   className="bi bi-stars"
