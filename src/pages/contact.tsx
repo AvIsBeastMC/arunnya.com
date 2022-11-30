@@ -39,7 +39,7 @@ const Contact: NextPage = () => {
         </h1>
         <section data-aos="fade-down" className="inter text-gray-400 body-font overflow-hidden">
           <div className="container px-5 mx-auto">
-            <div className="-my-8 divide-y-2 divide-gray-800">
+            <div className="-my-8 divide-y-2 divide-gray-700">
               <div className="py-8 flex flex-wrap md:flex-nowrap">
                 <div className="md:flex-grow">
                   <h2 className="text-2xl font-medium text-white title-font">

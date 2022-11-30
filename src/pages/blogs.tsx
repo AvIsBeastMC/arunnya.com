@@ -115,7 +115,7 @@ const Blogs: NextPage = () => {
                 </>
               </div>
               {!posts.length ? (
-                <h1 className="text-3xl mt-12 text-center border-gray-700 pb-8">
+                <h1 className="mt-12 sm:text-md text-center border-gray-700 pb-8">
                   <span className="poppins md:text-xl">
                     There are no blog posts at the moment... Sorry!
                   </span>

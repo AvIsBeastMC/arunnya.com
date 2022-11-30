@@ -834,6 +834,7 @@ const About: NextPage = () => {
                   Kimi ni Todoke Season 2
                 </h2>
                 <a href="https://animixplay.to/v1/kimi-ni-todoke-season-2" className="hover:text-blue-400" target="_blank"><i className="bi bi-play-circle"></i></a>
+                <a href="https://myanimelist.net/profile/arunnyaa" className="ml-2 hover:text-blue-400" target="_blank"><i className="bi bi-card-checklist"></i></a>
               </div>
             </div>
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
