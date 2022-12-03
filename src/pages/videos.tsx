@@ -22,6 +22,11 @@ const Videos:NextPage = () => {
 
   const [videos, setVideos] = useState<VideoInterface[]>([
     {
+      title: "Fantasize 🍋",
+      url: "https://firebasestorage.googleapis.com/v0/b/portfolio-b19b7.appspot.com/o/fantasize.mp4?alt=media&token=007a1ac5-04d7-46f2-9584-8671389b5fd4",
+      main: true
+    },
+    {
       title: "Stay 💫",
       url: "https://firebasestorage.googleapis.com/v0/b/portfolio-b19b7.appspot.com/o/Untitled.mp4?alt=media&token=6caeb57b-f19e-4c73-83ef-bdc6488313d9",
       main: true
@@ -85,7 +90,7 @@ const Videos:NextPage = () => {
                   key={i}
                   data-aos="fade-down"
                   className={
-                    video.main ? "p-4 md:w-1/2 w-full" : "p-4 md:w-1/4 w-full"
+                    video.main ? "p-4 md:w-1/3 w-full" : "p-4 md:w-1/4 w-full"
                   }
                 >
                   <div className="h-full bg-gray-800 bg-opacity-40 p-4 rounded">
