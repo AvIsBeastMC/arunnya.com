@@ -158,7 +158,7 @@ export default function Ishaan() {
               data-aos-delay="2400"
             >
               <div className="flex relative">
-                <embed src="/HAPPY_BDAY.pdf" type="pdf"  />
+                <embed src="/HAPPY_BDAY.pdf" type="application/pdf"  />
                 <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
                     sam's trash
