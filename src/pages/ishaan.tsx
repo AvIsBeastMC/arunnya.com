@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { NextPage } from "next/types";
 import UseAnimation from "react-useanimations";
 import heart from "react-useanimations/lib/heart";
@@ -6,6 +7,9 @@ import Footer from "../components/Footer";
 export default function Ishaan() {
   return (
     <>
+      <Head>
+        <title>HAPPY BIRTHDAY ISHAAN! - Arunnya</title>
+      </Head>
       <div className="py-12">
         <div
           style={{
@@ -94,49 +98,75 @@ export default function Ishaan() {
                 </div>
               </div>
             </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-in" data-aos-delay="2400">
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/images/ishaan4.png"
-                  />
-                  <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
-                      W
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-in" data-aos-delay="2400">
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/images/ishaan2.jpg"
-                  />
-                  <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
-                      the first W pick 🗿 🛐
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-in" data-aos-delay="2400">
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/images/ishaan6.png"
-                  />
-                  <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
-                      ran out of titles ily ♥
-                    </h1>
-                  </div>
+            <div
+              className="lg:w-1/3 sm:w-1/2 p-4"
+              data-aos="fade-in"
+              data-aos-delay="2400"
+            >
+              <div className="flex relative">
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src="/images/ishaan4.png"
+                />
+                <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
+                    W
+                  </h1>
                 </div>
               </div>
             </div>
+            <div
+              className="lg:w-1/3 sm:w-1/2 p-4"
+              data-aos="fade-in"
+              data-aos-delay="2400"
+            >
+              <div className="flex relative">
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src="/images/ishaan2.jpg"
+                />
+                <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
+                    the first W pick 🗿 🛐
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              className="lg:w-1/3 sm:w-1/2 p-4"
+              data-aos="fade-in"
+              data-aos-delay="2400"
+            >
+              <div className="flex relative">
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src="/images/ishaan6.png"
+                />
+                <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
+                    ran out of titles ily ♥
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              className="w-full p-4"
+              data-aos="fade-in"
+              data-aos-delay="2400"
+            >
+              <div className="flex relative">
+                <embed src="/HAPPY_BDAY (1).pdf" type="pdf"  />
+                <div className="px-8 py-48 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h1 className="inter title-font text-lg font-medium text-white mb-3 py-10">
+                    sam's trash
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
