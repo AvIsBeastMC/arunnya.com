@@ -6,7 +6,7 @@ import { NextPage } from "next";
 import firebase from '../../firebase'
 import { useRouter } from "next/router";
 
-const Contact: NextPage = () => {
+export default function Contact () {
   const router = useRouter()
   useEffect(() => {
     firebase.analytics().logEvent("page_view");
@@ -102,5 +102,3 @@ const Contact: NextPage = () => {
     </>
   );
 };
-
-export default Contact;

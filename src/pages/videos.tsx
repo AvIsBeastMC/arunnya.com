@@ -6,7 +6,7 @@ import { NextPage } from "next";
 import firebase from '../../firebase'
 import { useRouter } from "next/router";
 
-const Videos:NextPage = () => {
+export default function Videos () {
   interface VideoInterface {
     title: string;
     url: string;
@@ -112,5 +112,3 @@ const Videos:NextPage = () => {
     </>
   );
 };
-
-export default Videos;

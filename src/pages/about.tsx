@@ -7,7 +7,7 @@ import { NextPage } from "next";
 import firebase from "../../firebase";
 import { useRouter } from "next/router";
 
-const About: NextPage = () => {
+export default function About () {
   interface LinkProps {
     href: string;
     title: string;
@@ -831,9 +831,9 @@ const About: NextPage = () => {
                   <span className="text-sky-200">
                     All-time Favourite Anime
                   </span> <br />
-                  Kimi ni Todoke Season 2
+                  Tsuki ga Kirei
                 </h2>
-                <a href="https://animixplay.to/v1/kimi-ni-todoke-season-2" className="hover:text-blue-400" target="_blank"><i className="bi bi-play-circle"></i></a>
+                <a href="https://animixplay.to/v1/tsuki-ga-kirei" className="hover:text-blue-400" target="_blank"><i className="bi bi-play-circle"></i></a>
                 <a href="https://myanimelist.net/profile/arunnyaa" className="ml-2 hover:text-blue-400" target="_blank"><i className="bi bi-card-checklist"></i></a>
               </div>
             </div>
@@ -858,4 +858,3 @@ const About: NextPage = () => {
     </>
   );
 };
-export default About;

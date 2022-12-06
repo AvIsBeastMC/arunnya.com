@@ -10,7 +10,7 @@ import firebase from "../../firebase";
 import moment from "moment";
 import { useRouter } from "next/router";
 
-const Blogs: NextPage = () => {
+export default function Blogs () {
   const router = useRouter();
   const [loaded, setLoaded] = useState<boolean>(false);
   const db = firebase.firestore();
@@ -130,5 +130,3 @@ const Blogs: NextPage = () => {
     );
   }
 };
-
-export default Blogs;
