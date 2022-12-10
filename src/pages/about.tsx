@@ -816,9 +816,9 @@ export default function About () {
                   <span className="text-sky-200">
                     All-time Favourite Song
                   </span> <br />
-                  Tu Mila To Haina - Arijit Singh
+                  <span className="text-sm">Almost ALL of Arijit Singh's Songs! No kidding!</span>
                 </h2>
-                <a href="https://open.spotify.com/track/4ZoIQLHOAD6jwsQ0daI5M2?si=1b296ca5a83f46e0" className="hover:text-blue-400" target="_blank"><i className="bi bi-spotify"></i></a>
+                <a href="https://open.spotify.com/playlist/0tnXUaho48cGS4P3UdXV0s?si=27acfa2dcc674038" className="hover:text-blue-400" target="_blank"><i className="bi bi-spotify"></i></a>
               </div>
             </div>
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
