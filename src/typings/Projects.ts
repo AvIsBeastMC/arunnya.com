@@ -7,11 +7,43 @@ export interface Project {
   features?: string[];
   i: string;
   link?: string;
+  wFull: boolean;
   readMore: boolean;
+  contesting?: boolean;
 }
 
 export default [
     {
+      wFull: true,
+      i: "bi bi-globe",
+      category: "Database and Resources",
+      date: "10 December 2022",
+      title: "Tierisches",
+      builtWith: [
+        "Firebase Authentication",
+        "Firebase Firestore",
+        "ReactJS",
+        "React Native",
+        "Expo",
+        "NativeBase",
+        "TailwindCSS",
+      ],
+      description:
+        "This is a website dedicated to information database about Animals, its Properties and its Breeds. This database of information can be contributed to, by its users with verification done to all its sources, similar to how Wikipedia works.",
+      features: [
+        "Find infomation about Animals",
+        "Be a Verified Contributor and/or Editor",
+        "Compare Animals",
+        "Share Pages and Informations with QR Code Generation & Sharing",
+        "Dark Mode based UI with Clean Animations and Layout",
+        "Authentication with Sign-in",
+        "Verification of all information, reliable information only"
+      ],
+      readMore: false,
+      contesting: true,
+    },
+    {
+      wFull: false,
       i: "bi bi-play",
       category: "Video Sharing",
       date: "22 February 2022",
@@ -37,6 +69,7 @@ export default [
       link: "https://www.watchbang.tk/",
     },
     {
+      wFull: false,
       i: "bi bi-newspaper",
       category: "News and Posts",
       date: "4th June 2022",
@@ -54,6 +87,7 @@ export default [
       readMore: false,
     },
     {
+      wFull: false,
       i: "bi bi-stopwatch",
       category: "Time and Clock",
       date: "12 Jul 2022",
@@ -75,6 +109,7 @@ export default [
       readMore: false,
     },
     {
+      wFull: false,
       i: "bi bi-cart",
       category: "Grocery and Ecommerce",
       date: "12 Jul 2022",
@@ -100,6 +135,7 @@ export default [
       readMore: false,
     },
     {
+      wFull: false,
       i: "bi bi-chat-square-text",
       link: "https://www.fireforums.ml/",
       category: "Messaging and Forum",
@@ -126,6 +162,7 @@ export default [
       ],
     },
     {
+      wFull: false,
       i: "bi bi-flag",
       category: "Tournament",
       date: "1 February 2022",

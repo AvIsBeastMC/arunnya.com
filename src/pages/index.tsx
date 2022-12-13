@@ -63,7 +63,7 @@ export default function Home() {
             >
               Welcome! <br />{" "}
               <span className="text-gray-400">
-              <Typewriter
+                <Typewriter
                   options={{
                     strings: [
                       "This is Arunnya",
@@ -135,7 +135,14 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap -m-4">
             {projects.map((project, i) => (
-              <div key={i} className="xl:w-1/2 md:w-1/2 p-4">
+              <div
+                key={i}
+                className={
+                  !project.wFull
+                    ? "xl:w-1/2 md:w-1/2 p-4"
+                    : "xl:w-full md:w-full p-4"
+                }
+              >
                 <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
                   <h3 className="tracking-widest poppins text-indigo-400 mb-1 text-xs font-medium title-font">
                     {project.category.toUpperCase()}
@@ -146,6 +153,13 @@ export default function Home() {
                   <p className="leading-relaxed text-base my-2">
                     {project.description}
                   </p>
+                  {project.contesting ? (
+                    <p className="leading-relaxed text-base my-2">
+                      <i className="bi bi-stars text-amber-500"></i>{" "}
+                      Contesting/Contested for a Competition!
+                    </p>
+                  ) : null}
+
                   {project.readMore ? (
                     <div data-aos="fade-in">
                       <div>
