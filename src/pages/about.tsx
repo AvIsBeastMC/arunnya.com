@@ -102,7 +102,7 @@ export default function About () {
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
                 <h2 className="baron mt-2 text-lg text-white font-medium title-font">
-                  C++ (for Game Development)
+                  C++ (for Game Development & Modeling)
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                   <div
