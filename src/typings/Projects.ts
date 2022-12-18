@@ -20,9 +20,9 @@ export default [
     date: "10 December 2022",
     title: "Tierisches",
     builtWith: [
+      "NextJS (ReactJS)",
       "Firebase Authentication",
       "Firebase Firestore",
-      "ReactJS",
       "React Native",
       "Expo",
       "NativeBase",
