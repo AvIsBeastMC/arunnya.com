@@ -21,8 +21,6 @@ const MyDocument = () => {
         <meta property="og:image" content="/images/banner.jpg" />
         <meta property="twitter:image" content="/images/banner.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9136061489722919"
-     crossOrigin="anonymous"></script>
         <meta property="og:type" content="website" />
       </Head>
       <body>
