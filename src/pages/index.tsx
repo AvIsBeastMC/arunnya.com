@@ -123,7 +123,7 @@ export default function Home() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="inter sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+              <h1 className="cn sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
                 PROJECTS
               </h1>
               <div className="h-1 w-20 bg-indigo-500 rounded"></div>
@@ -147,16 +147,22 @@ export default function Home() {
                   <h3 className="tracking-widest poppins text-indigo-400 mb-1 text-xs font-medium title-font">
                     {project.category.toUpperCase()}
                   </h3>
-                  <h2 className="inter text-lg text-white font-medium title-font">
+                  <h2 className="inter text-lg text-white font-medium title-font mb-1">
                     {project.title}
                   </h2>
-                  <p className="leading-relaxed text-base my-2">
+                  <p className="leading-relaxed text-base mb-2">
                     {project.description}
                   </p>
                   {project.contesting ? (
-                    <p className="leading-relaxed text-base my-2">
+                    <p className="leading-relaxed text-gray-300 poppins text-base my-2">
                       <i className="bi bi-stars text-amber-500"></i>{" "}
-                      Contesting/Contested for a Competition!
+                      {project.contesting == "contesting"
+                        ? "Currently Contesting for a Competition!"
+                        : project.contesting == "contested"
+                        ? "Contested for a Competition"
+                        : project.contesting == "won"
+                        ? "Won a Competition! 🎉"
+                        : null}
                     </p>
                   ) : null}
 
@@ -168,7 +174,7 @@ export default function Home() {
                             {featureI == 0 ? (
                               <h1 className="my-1 inter font-bold uppercase text-gray-300">
                                 <span className="border-b-2 border-gray-300 border-dotted">
-                                  features
+                                  Features
                                 </span>
                               </h1>
                             ) : (
@@ -187,7 +193,7 @@ export default function Home() {
                       <div className="my-2">
                         <h1 className="my-1 inter font-bold uppercase text-gray-300">
                           <span className="border-b-2 border-gray-300 border-dotted">
-                            built with
+                            Built With
                           </span>
                         </h1>
                         {project.builtWith.map((builtWith, builtWithI) => (

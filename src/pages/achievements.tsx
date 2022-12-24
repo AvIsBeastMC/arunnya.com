@@ -28,8 +28,8 @@ export default function Achievements() {
         />
       </Head>
       <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-        <span className="baron md:text-4xl px-5 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-          ACHIEVEMENTS
+        <span className="cn md:text-4xl px-5 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+          Gallery
         </span>
       </h1>
       <section

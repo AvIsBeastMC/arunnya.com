@@ -1,48 +1,58 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
 @font-face {
-    font-family: Poppins;
-    src: url('../../public/fonts/Poppins.ttf');
+  font-family: Poppins;
+  src: url("../../public/fonts/Poppins.ttf");
 }
 
 @font-face {
-    font-family: Inter;
-    src: url('../../public/fonts/Inter.ttf');
+  font-family: Inter;
+  src: url("../../public/fonts/Inter.ttf");
 }
 
 @font-face {
-    font-family: Baron;
-    src: url('../../public/fonts/Baron.otf');
+  font-family: Baron;
+  src: url("../../public/fonts/Baron.otf");
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #0f3035;
-    scroll-behavior: smooth;
+@font-face {
+  font-family: CodeNext;
+  src: url("../../public/fonts/CodeNext.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f3035;
+  scroll-behavior: smooth;
+}
+
+.cn {
+  font-family: "CodeNext", sans-serif;
 }
 
 .poppins {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .inter {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .baron {
-    font-family: 'Baron', sans-serif;
+  font-family: "Baron", sans-serif;
 }
 
 .blink_me {
-    animation: blinker 1s linear infinite;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
+  animation: blinker 1s linear infinite;
+}
 
-@import 'tailwindcss/utilities';
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@import "tailwindcss/utilities";

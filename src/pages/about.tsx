@@ -7,7 +7,7 @@ import { NextPage } from "next";
 import firebase from "../../firebase";
 import { useRouter } from "next/router";
 
-export default function About () {
+export default function About() {
   interface LinkProps {
     href: string;
     title: string;
@@ -37,7 +37,10 @@ export default function About () {
         <title>Skills & Hobbies - Arunnya Varma</title>
         <meta name="title" content="Skills & Hobbies - Arunnya Varma" />
         <meta property="og:title" content="Skills & Hobbies - Arunnya Varma" />
-        <meta property="twitter:title" content="Skills & Hobbies - Arunnya Varma" />
+        <meta
+          property="twitter:title"
+          content="Skills & Hobbies - Arunnya Varma"
+        />
         <meta
           name="description"
           content="The page where I have mentioned all of the IaaS, PaaS and other technologies which I use quite often and consider myself good or excellent at"
@@ -54,8 +57,8 @@ export default function About () {
       <section className="text-gray-400 body-font">
         <div data-aos="fade-down" id="devops" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl px-5 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              PROGRAMMING LANGUAGES
+            <span className="cn md:text-4xl px-5 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Programming Languages
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -145,8 +148,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div data-aos="fade-down" id="backend" className="mx-auto">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron px-5 md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              BACKEND TECHNOLOGIES
+            <span className="cn px-5 md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Backend Technologies
             </span>
           </h1>
           <div className="flex mx-auto flex-wrap -m-4 container">
@@ -191,9 +194,7 @@ export default function About () {
                   Firebase Suite
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -232,9 +233,7 @@ export default function About () {
                   MySQL
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -259,9 +258,7 @@ export default function About () {
                   Redux
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -326,8 +323,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div id="frontend" data-aos="fade-down" className="mx-auto">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              FRONTEND TECHNOLOGIES
+            <span className="cn md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Frontend Technologies
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -338,9 +335,7 @@ export default function About () {
                   NEXTJS (+ React)
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -376,9 +371,7 @@ export default function About () {
                   ELECTRONJS
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -389,9 +382,7 @@ export default function About () {
                   JQUERY
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -427,9 +418,7 @@ export default function About () {
                   Vuetify
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -468,9 +457,7 @@ export default function About () {
                   Redux
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -493,8 +480,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div id="devops" data-aos="fade-down" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              HOSTING AND DOMAINS
+            <span className="cn md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Hosting and Domains
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -505,9 +492,7 @@ export default function About () {
                   Cloudflare
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -568,22 +553,18 @@ export default function About () {
                   WordPress
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
             <div className="xl:w-1/3 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-              <img src="https://img.icons8.com/external-others-inmotus-design/48/000000/external-H-alphabet-others-inmotus-design-13.png"/>
+                <img src="https://img.icons8.com/external-others-inmotus-design/48/000000/external-H-alphabet-others-inmotus-design-13.png" />
                 <h2 className="baron mt-2 text-lg text-white font-medium title-font">
                   Hostinger
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -594,22 +575,18 @@ export default function About () {
                   Heroku
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
             <div className="xl:w-1/3 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <img src="https://img.icons8.com/ios-glyphs/48/000000/question-mark.png"/>
+                <img src="https://img.icons8.com/ios-glyphs/48/000000/question-mark.png" />
                 <h2 className="baron mt-2 text-lg text-white font-medium title-font">
                   Freenom
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -618,8 +595,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div id="video" data-aos="fade-down" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              SOFTWARES FOR PRODUCTION
+            <span className="cn md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Softwares for Production
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -630,9 +607,7 @@ export default function About () {
                   Adobe After Effects
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -676,9 +651,7 @@ export default function About () {
                   AUDACITY
                 </h2>
                 <div className="mt-2 w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-600 h-2.5 rounded-full"
-                  />
+                  <div className="bg-blue-600 h-2.5 rounded-full" />
                 </div>
               </div>
             </div>
@@ -701,8 +674,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div id="interests" data-aos="fade-down" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              OTHER HOBBIES/INTERESTS
+            <span className="cn md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              Other Hobbies or Interests
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -710,7 +683,8 @@ export default function About () {
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
                 <i className="bi bi-journals" style={{ fontSize: "28px" }}></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Watching Documentaries and Learning about Geopolitics and Aviation ✨
+                  Watching Documentaries and Learning about Geopolitics and
+                  Aviation ✨
                 </h2>
               </div>
             </div>
@@ -735,8 +709,8 @@ export default function About () {
         <hr data-aos="fade-down" className="my-6 border-1 border-gray-600" />
         <div id="learning" data-aos="fade-down" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
-            <span className="baron md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              WHAT AM I DOING?
+            <span className="cn md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              What am I doing?
             </span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
@@ -751,7 +725,7 @@ export default function About () {
                   <span className="border-b-2 border-gray-600">
                     Aviation and Engineering Sector
                   </span>{" "}
-                  and {" "}
+                  and{" "}
                   <span className="border-b-2 border-gray-600">
                     Finance, Management and Communications
                   </span>
@@ -776,7 +750,8 @@ export default function About () {
                   style={{ fontSize: "28px" }}
                 ></i>
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  Remembering the good old days of my life... where did they go...? :(
+                  Remembering the good old days of my life... where did they
+                  go...? :(
                 </h2>
               </div>
             </div>
@@ -786,68 +761,83 @@ export default function About () {
         <div id="favourites" data-aos="fade-down" className="mx-auto mb-12">
           <h1 className="text-3xl mt-4 text-center border-b-2 border-gray-700 pb-8 my-6">
             <span className="baron mr-2 md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-              Favourites 
+              Favourites
             </span>
             <span className="poppins">🌟✨</span>
           </h1>
           <div className="flex container mx-auto flex-wrap -m-4">
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-film"
-                  style={{ fontSize: "28px" }}
-                ></i> <br />
+                <i className="bi bi-film" style={{ fontSize: "28px" }}></i>{" "}
+                <br />
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  <span className="text-sky-200">
-                    All-time Favourite Movie
-                  </span> <br />
+                  <span className="text-sky-200">All-time Favourite Movie</span>{" "}
+                  <br />
                   Anand (1971)
                 </h2>
-                <a href="https://youtu.be/vdoMF0qwtAQ" className="hover:text-blue-400" target="_blank"><i className="bi bi-youtube"></i></a>
+                <a
+                  href="https://youtu.be/vdoMF0qwtAQ"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
+                  <i className="bi bi-youtube"></i>
+                </a>
               </div>
             </div>
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-disc"
-                  style={{ fontSize: "28px" }}
-                ></i> <br />
+                <i className="bi bi-disc" style={{ fontSize: "28px" }}></i>{" "}
+                <br />
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  <span className="text-sky-200">
-                    All-time Favourite Song
-                  </span> <br />
-                  <span className="text-sm">Almost ALL of Arijit Singh's Songs! No kidding!</span>
+                  <span className="text-sky-200">All-time Favourite Song</span>{" "}
+                  <br />
+                  <span className="text-sm">
+                    Almost ALL of Arijit Singh's Songs! No kidding!
+                  </span>
                 </h2>
-                <a href="https://open.spotify.com/playlist/0tnXUaho48cGS4P3UdXV0s?si=27acfa2dcc674038" className="hover:text-blue-400" target="_blank"><i className="bi bi-spotify"></i></a>
+                <a
+                  href="https://open.spotify.com/playlist/0tnXUaho48cGS4P3UdXV0s?si=27acfa2dcc674038"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
+                  <i className="bi bi-spotify"></i>
+                </a>
               </div>
             </div>
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-alipay"
-                  style={{ fontSize: "28px" }}
-                ></i> <br />
+                <i className="bi bi-alipay" style={{ fontSize: "28px" }}></i>{" "}
+                <br />
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  <span className="text-sky-200">
-                    All-time Favourite Anime
-                  </span> <br />
+                  <span className="text-sky-200">All-time Favourite Anime</span>{" "}
+                  <br />
                   Tsuki ga Kirei
                 </h2>
-                <a href="https://animixplay.to/v1/tsuki-ga-kirei" className="hover:text-blue-400" target="_blank"><i className="bi bi-play-circle"></i></a>
-                <a href="https://myanimelist.net/profile/arunnyaa" className="ml-2 hover:text-blue-400" target="_blank"><i className="bi bi-card-checklist"></i></a>
+                <a
+                  href="https://animixplay.to/v1/tsuki-ga-kirei"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
+                  <i className="bi bi-play-circle"></i>
+                </a>
+                <a
+                  href="https://myanimelist.net/profile/arunnyaa"
+                  className="ml-2 hover:text-blue-400"
+                  target="_blank"
+                >
+                  <i className="bi bi-card-checklist"></i>
+                </a>
               </div>
             </div>
             <div className="xl:w-1/4 w-full md:w-1/2 p-4">
               <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <i
-                  className="bi bi-stars"
-                  style={{ fontSize: "28px" }}
-                ></i> <br />
+                <i className="bi bi-stars" style={{ fontSize: "28px" }}></i>{" "}
+                <br />
                 <h2 className="poppins mt-2 text-md text-white font-medium title-font">
-                  <span className="text-sky-200">
-                    All-time Favourite Hobby
-                  </span> <br />
-                  <span className="line-through">Programming</span> Sitting alone when nobody's home!
+                  <span className="text-sky-200">All-time Favourite Hobby</span>{" "}
+                  <br />
+                  <span className="line-through">Programming</span> Sitting
+                  alone when nobody's home!
                 </h2>
               </div>
             </div>
@@ -857,4 +847,4 @@ export default function About () {
       <Footer />
     </>
   );
-};
+}

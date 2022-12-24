@@ -9,7 +9,7 @@ export interface Project {
   link?: string;
   wFull: boolean;
   readMore: boolean;
-  contesting?: boolean;
+  contesting?: "contesting" | "contested" | "won";
 }
 
 export default [
@@ -27,6 +27,7 @@ export default [
       "Expo",
       "NativeBase",
       "TailwindCSS",
+      "tRPC"
     ],
     description:
       "This is a website dedicated to information database about Animals, its Properties and its Breeds. This database of information can be contributed to, by its users with verification done to all its sources, similar to how Wikipedia works.",
@@ -40,7 +41,7 @@ export default [
       "Verification of all information, reliable information only"
     ],
     readMore: false,
-    contesting: true,
+    contesting: "contesting",
   },
   {
     wFull: false,
