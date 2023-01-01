@@ -125,7 +125,7 @@ export default function Achievements() {
                   <img
                     alt="gallery"
                     className="w-full h-full object-cover object-center block"
-                    src="/images/hacktrack4.jpg"
+                    src="/images/team-pic.jpg"
                   />
                 </div>
                 <div className="md:p-2 p-1 w-1/2">
