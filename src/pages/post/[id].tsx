@@ -52,7 +52,7 @@ const Post: NextPage = () => {
           </h1>
           <p
             style={{ wordWrap: "break-word" }}
-            className="leading-relaxed text-gray-400 mx-auto px-24 mt-4 text-center"
+            className="leading-relaxed text-gray-400 mx-auto px-24 mt-4"
             dangerouslySetInnerHTML={{ __html: data.content }}
           />
         </section>
